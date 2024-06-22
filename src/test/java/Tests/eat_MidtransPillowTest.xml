@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "Full MidtransPillow Webpage Test">
+
+    <test name = "Sanity Test">
+        <classes>
+            <class name = "Tests.verifyBuyNowBtnOpensCheckoutPopup"/>
+            <class name = "Tests.verifyCheckoutBtnOpensOrderSummaryPopup"/>
+            <class name = "Tests.verifyCreditDebitCardPaymentScreen"/>
+            <class name = "Tests.verifyBankPaymentScreenAndDetails"/>
+        </classes>
+    </test>
+    <test name = "Regression Test">
+        <classes>
+            <class name = "Tests.verifyMidtransPillowAddedToCart"/>
+            <class name = "Tests.verifyNameEmailPhoneCityAddressPostalOnCheckoutPg"/>
+            <class name = "Tests.verifyNameEmailPhoneCityAddressPostalAreEditable"/>
+            <class name = "Tests.verifyProductDetailsOnOrderSummeryPopup"/>
+            <class name = "Tests.verifyAllPaymentOptions"/>
+            <class name = "Tests.verifyOrderAmountAndPriceChangeWithCouponOnCreditDetailScreen"/>
+            <class name = "Tests.enterCardDetailsAndClickPayNow"/>
+            <class name = "Tests.verifyValidOtpRedirectsToSuccessScreen"/>
+            <class name = "Tests.verifyInvalidOtpRedirectsToFailedScreen"/>
+            <class name = "Tests.verifyCancelBtnRedirectsToFailedScreen"/>
+        </classes>
+    </test>
+
+</suite>
